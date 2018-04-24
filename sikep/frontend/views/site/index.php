@@ -15,6 +15,7 @@ $this->title = 'My Yii Application';
     </div>
 
     <div class="body-content">
+		<?= yii\bootstrap\Progress::widget(['percent' => 100, 'label' => 'test']) ?>
 
         <div class="row">
             <div class="col-lg-4">
